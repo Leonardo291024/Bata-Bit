@@ -220,6 +220,11 @@ main{
     color: #757575;
 }
 
+.currency-table-container td{
+    background-color: #ffdb9a;
+    color: var(--black);
+}
+
 .currency-table-container .down{
     display: inline-block;
     width: 15px;
@@ -512,7 +517,7 @@ main{
 }
 
 .plan-card-saving{
-    color: #757575;
+    color: var(--black);
     font-size: 1.2rem;
 }
 
@@ -553,6 +558,11 @@ footer section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rigth img{
+    width: 50px;
+    height: 30px;
 }
 
 footer .left ul{
